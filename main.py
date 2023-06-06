@@ -103,7 +103,7 @@ def scrape_youtube_data(request):
 
 if __name__ == "__main__":
     country = "France"
-    channels = "['UCfBkblXPcSNt784AZz5J6AQ', 'UCcm_Hc5ElMtNhcwWPSVYZrA', 'UCVXiRA9Y7kTadGN_nlzt0Fg', 'UCTO6ZRrh6XCUju4WfpYhs5w', 'UCehoiCBcsHwSvUn8T-a7aig]"
+    channels = "['UC855lGKTrQOUCuWxiv--OxA', 'UC855lGKTrQOUCuWxiv--OxA', 'UC2mwsE-87Hfh9ZmSrqBqNIg', 'UC5sZPItEIDwOlCmSBbWzRiw', 'UCgN6VM0MKJ1W7EwjX9qIPhg', 'UCBbuMYqQY05m27gSccTks9Q', 'UCes5UfgRhGeVWt1a9oEGoyg', 'UC0xNbxurzRU4Q9JAKv9oLJg', 'UC37s46-H1Mlv88HX8f7aHKQ', 'UC-82Z55nusYZb9_8V6Pmmyw', 'UC0xNbxurzRU4Q9JAKv9oLJg', 'UCes5UfgRhGeVWt1a9oEGoyg', 'UCGKkc1W8aQ3Z4yHE89Bc4fg', 'UCs6mVnsiDrJL9CbuiemXa3w', 'UC5sZPItEIDwOlCmSBbWzRiw', 'UC2mwsE-87Hfh9ZmSrqBqNIg', 'UCBbuMYqQY05m27gSccTks9Q', 'UC855lGKTrQOUCuWxiv--OxA', 'UCUP4XFMrsJG5_AbG6ZYBVFA', 'UCF8l-YD3e3LK1LnxFhNaNDQ', 'UCs5IxVpqCYv7xiPsclF8mFA', 'UC2mwsE-87Hfh9ZmSrqBqNIg'"
     mock_request = MockRequest(country=country, channels=channels)
     result = scrape_youtube_data(request=mock_request)
     print(result)

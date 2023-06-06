@@ -40,6 +40,7 @@ class HttpWorker(object):
                                                             end_pattern='"', get_all=True)
 
                 except Exception as e:
+                    channel_ids = []
                     print(f'https://www.youtube.com/watch?v={vid_id}')
             return channel_ids
         except Exception as e:
