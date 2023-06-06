@@ -1,0 +1,37 @@
+name: Deploy Cloud Function
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+    - name: Authenticate with Google Cloud
+      uses: google-github-actions/auth@v1
+      with:
+        credentials_json: ${{ secrets.GOOGLE_CLOUD_KEY_FUNCTIONS }}
+    - name: Create Cloud Function if it does not exist
+      run: |
+        set +e
+        output=$(gcloud functions describe search-channels  --region=europe-west2 2>&1)
+        if [[ $output == *"not found"* ]]; then
+          gcloud functions create search-channels  --timeout=400s  --memory=2048MB --verbosity=debug --runtime python39 --trigger-http --allow-unauthenticated --entry-point scrape_youtube_data --region=europe-west2
+        fi
+        set -e
+    - name: Deploy to Google Cloud
+      run: |
+        gcloud functions deploy search-channels  --timeout=400s  --memory=2048MB --verbosity=debug --runtime python39 --trigger-http --allow-unauthenticated --entry-point scrape_youtube_data --region=europe-west2

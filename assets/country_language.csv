@@ -1,0 +1,209 @@
+country_code,country_name,country_language,language_code
+af,Afghanistan,Pashto,ps
+al,Albania,Albanian,sq
+dz,Algeria,Arabic,ar
+as,American Samoa,Samoa,ws
+ad,Andorra,Catalan,ca
+ao,Angola,Portuguese,pt
+ai,Anguilla,English,en
+aq,Antarctica,English,en
+ag,Antigua and Barbuda,English,en
+ar,Argentina,Spanish,es
+am,Armenia,Armenian,hy
+aw,Aruba,Dutch,nl
+au,Australia,English,en
+at,Austria,German,de
+az,Azerbaijan,Azerbaijani,az
+bs,Bahamas,English,en
+bh,Bahrain,Arabic,ar
+bd,Bangladesh,Bangal,bn
+bb,Barbados,English,en
+by,Belarus,Belorussian,be
+be,Belgium,French,fr
+bz,Belize,English,en
+bj,Benin,French,fr
+bm,Bermuda,English,en
+bt,Bhutan,Dzongkha,dz
+bo,Bolivia,Spanish,es
+ba,Bosnia and Herzegovina,Bosnian,bs
+bw,Botswana,English,en
+bv,Bouvet Island,Norwegian,no
+br,Brazil,Portuguese,pt
+io,British Indian Ocean Territory,English,en
+bn,Brunei Darussalam,Malay,my
+bg,Bulgaria,Bulgarian,bg
+bf,Burkina Faso,French,fr
+bi,Burundi,Kirundi,rn
+kh,Cambodia,Khmer,kk
+cm,Cameroon,French,fr
+ca,Canada,English,en
+cv,Cape Verde,Portuguese,pt
+ky,Cayman Islands,English,en
+cf,Central African Republic,French,fr
+td,Chad,French,fr
+cl,Chile,Spanish,es
+cn,China,Chinese,ny
+co,Colombia,Spanish,es
+km,Comoros,Arabic and French,sq
+cg,Congo,French,fr
+cd,"Congo, the Democratic Republic of the",French,fr
+ck,Cook Islands,English,en
+cr,Costa Rica,Spanish,es
+ci,Cote D'ivoire,French,fr
+hr,Croatia,Bosnian,bs
+cu,Cuba,Spanish,es
+cy,Cyprus,Greek,el
+cz,Czech Republic,Czech,cs
+dk,Denmark,Danish,da
+dj,Djibouti,French,fr
+dm,Dominica,English,en
+do,Dominican Republic,Spanish,es
+ec,Ecuador,Spanish,es
+eg,Egypt,Arabic,sq
+sv,El Salvador,Spanish,es
+gq,Equatorial Guinea,Spanish,es
+er,Eritrea,Afar,aa
+ee,Estonia,Estonian,et
+et,Ethiopia,Amharic,sq
+fk,Falkland Islands (Malvinas),English,en
+fo,Faroe Islands,English,en
+fj,Fiji,English,en
+fi,Finland,Finnish,fi
+fr,France,French,fr
+gf,French Guiana,French,fr
+pf,French Polynesia,French,fr
+tf,French Southern Territories,French,fr
+ga,Gabon,French,fr
+gm,Gambia,English,en
+ge,Georgia,Georgian,ka
+de,Germany,German,de
+gh,Ghana,English,en
+gi,Gibraltar,English,en
+gr,Greece,Greek,el
+gl,Greenland,English,en
+gd,Grenada,English,en
+gp,Guadeloupe,French,fr
+gu,Guam,English,en
+gt,Guatemala,Spanish,es
+gn,Guinea,French,fr
+gw,Guinea-Bissau,Portuguese,pt
+gy,Guyana,English,en
+ht,Haiti,Creole,co
+hm,Heard Island and Mcdonald Islands,English,en
+va,Holy See (Vatican City State),English,en
+hn,Honduras,Honduras: Spanish,hi
+hk,Hong Kong,zh-hk,yo
+hu,Hungary,Hungarian,hu
+is,Iceland,Icelandic,is
+in,India,Hindi,hi
+id,Indonesia,Bahasa Indonesia,sq
+ir,Iran,Persian,fa
+iq,Iraq,Arabic,sq
+ie,Ireland,English,en
+il,Israel,Hebrew,iw
+it,Italy,Italian,it
+jm,Jamaica,English,en
+jp,Japan,Japanese,ja
+jo,Jordan,Arabic,sq
+kz,Kazakhstan,Kazak (Qazaq),kn
+ke,Kenya,English,en
+ki,Kiribati,English,en
+kr,Korea,Korea,kg
+kw,Kuwait,Arabic,sq
+kg,Kyrgyzstan,Kyrgyz,ky
+lv,Latvia,Latvian,lv
+lb,Lebanon,Arabic,sq
+ls,Lesotho,English,en
+lr,Liberia,English,en
+li,Liechtenstein,German,de
+lt,Lithuania,Lithuanian,lt
+lu,Luxembourg,Luxermbourgish,ach
+mo,Macao,Chinese (Simplified),zh-cn
+mk,"Macedonia, the Former Yugosalv Republic of",Macedonian,mk
+mg,Madagascar,Malagasy,mg
+mw,Malawi,English,en
+my,Malaysia,Malay,my
+mv,Maldives,Dhivehi,da
+ml,Mali,French,fr
+mt,Malta,Maltese,mv
+mh,Marshall Islands,Marshallese,mr
+mr,Mauritania,Arabic,sq
+mx,Mexico,Spanish,es
+fm,Micronesia,English,en
+md,Moldova,Moldovan,mo
+mc,Monaco,French,fr
+mn,Mongolia,Mongolian,mn
+ma,Morocco,Arabic,sq
+mz,Mozambique,Portuguese,pt
+mm,Myanmar,The Myanmar language (formerly Burmese),th
+na,Namibia,Afrikaans,af
+nr,Nauru,Nauruan,sr-me
+np,Nepal,Nepali,ne
+nl,Netherlands,Dutch,nl
+an,Netherlands Antilles,Dutch,nl
+nz,New Zealand,English,en
+ne,Niger,French,fr
+ng,Nigeria,English,en
+no,Norway,Bokmål,bh
+om,Oman,Arabic,sq
+pk,Pakistan,Punjabi,pa
+pw,Palau,Palau,om
+pa,Panama,Spanish,es
+pg,Papua New Guinea,Spanish,es
+py,Paraguay,Spanish,es
+pe,Peru,Spanish,es
+ph,Philippines,Filipino,tl
+pl,Poland,Polish,pl
+pt,Portugal,Portuguese,pt
+pr,Puerto Rico,Spanish,es
+qa,Qatar,Arabic,sq
+ro,Romania,Romanian,ro
+ru,Russian Federation,Russian,ru
+rw,Rwanda,Kinyarwanda,rw
+ws,Samoa,Samoan,ru
+sm,San Marino,Italian,it
+sa,Saudi Arabia,Arabic,sq
+sn,Senegal,French,fr
+rs,Serbia and Montenegro,Serbian,sr
+sc,Seychelles,English,en
+sl,Sierra Leone,English,en
+sg,Singapore,Malay,my
+sk,Slovakia,Slovak,sk
+si,Slovenia,Slovenian,sl
+sb,Solomon Islands,English,en
+so,Somalia,Somali,so
+za,South Africa,Xhosa,xh
+gs,South Georgia and the South Sandwich Islands,Georgian,ka
+es,Spain,Castilian Spanish,km
+lk,Sri Lanka,Spanish,es
+sd,Sudan,Arabic,sq
+sr,Suriname,Dutch,nl
+sz,Swaziland,English,en
+se,Sweden,Swedish,sv
+ch,Switzerland,German,de
+sy,Syria,Arabic,sq
+tw,Taiwan,Chinese,ny
+tj,Tajikistan,Tajik,tg
+tz,"Tanzania, United Republic of",Tanzanian,ta
+th,Thailand,Thai,th
+tg,Togo,French,fr
+to,Tonga,Tongan (an Austronesian language),to
+tt,Trinidad and Tobago,English,en
+tn,Tunisia,Arabic,sq
+tr,Turkey,Turkish,tr
+tm,Turkmenistan,Turkmen,tk
+tv,Tuvalu,Tuvaluan,tk
+ug,Uganda,English,en
+ua,Ukraine,Ukrainian,uk
+ae,United Arab Emirates,Arabic,sq
+uk,United Kingdom,English,en
+gb,United Kingdom,English,en
+us,United States,English,en
+uy,Uruguay,Spanish,es
+uz,Uzbekistan,Uzbek,uz
+vu,Vanuatu,Bislama (a Melanesian pidgin English),bh
+ve,Venezuela,Spanish,es
+vn,Viet Nam,Vietnamise,vi
+ye,Yemen,Arabic,sq
+zm,Zambia,English,en
+zw,Zimbabwe,English,en
